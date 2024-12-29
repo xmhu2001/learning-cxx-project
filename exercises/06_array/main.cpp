@@ -16,7 +16,6 @@ unsigned long long fibonacci(int i) {
 }
 
 int main(int argc, char **argv) {
-    // TODO: 为此 ASSERT 填写正确的值
     ASSERT(sizeof(arr) == 720, "sizeof array is size of all its elements");
     // ---- 不要修改以下代码 ----
     ASSERT(fibonacci(2) == 1, "fibonacci(2) should be 1");
